@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promises Example 2</title>
+    
+    <!-- Import Axios library -->
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Link to your custom CSS file -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-dark text-white">
+    <div class="container text-center mt-5">
+        <h1>Promises Example 2</h1>
+        <div class="row mt-5">
+            <div class="col-sm-4 ">
+                <label for="remainingCards">Remaining Cards:</label>
+                <span id="remainingCardsCounter" class="badge badge-light">0</span>
+            </div>
+        </div>
+        <div class="row mt-3">
+            <div class="col-sm-4 ">
+                <button id="drawCardBtn" class="btn btn-primary">Draw a Card</button>
+            </div>
+        </div>
+        <div class="row mt-5">
+            <div class="col-12 ">
+                <div id="cardDisplay" class="card bg-success text-white">
+                    <div class="card-body">
+                        Card Display Area
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
+    <!-- Include your JavaScript code from external file -->
+    <script src="app.js"></script>
+</body>
+</html>
